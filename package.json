@@ -1,0 +1,40 @@
+{
+  "name": "@srating-io/common",
+  "private": false,
+  "version": "1.0.0",
+  "description": "srating.io shared constants and helpers (organization, division, terminology ids, current seasons)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srating-io/common.git"
+  },
+  "keywords": [],
+  "author": "Evan Smalley",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/srating-io/common/issues"
+  },
+  "homepage": "https://github.com/srating-io/common#readme"
+}
