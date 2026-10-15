@@ -1,7 +1,7 @@
 {
   "name": "@srating-io/common",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "srating.io shared constants and helpers (organization, division, terminology ids, current seasons)",
   "type": "module",
   "main": "dist/index.js",

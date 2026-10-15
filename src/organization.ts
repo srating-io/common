@@ -16,7 +16,7 @@ export type OrganizationID = typeof ORGANIZATION_ID[keyof typeof ORGANIZATION_ID
  */
 export const CURRENT_SEASON: Record<OrganizationID, number> = {
   [ORGANIZATION_ID.CFB]: 2027,
-  [ORGANIZATION_ID.CBB]: 2026,
+  [ORGANIZATION_ID.CBB]: 2027,
   [ORGANIZATION_ID.NBA]: 2027,
 };
 
